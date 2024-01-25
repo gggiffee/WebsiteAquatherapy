@@ -1,0 +1,138 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #162831;
+    padding: 15px;
+    width: 100%;
+    font-size: 14px;
+}
+
+nav {
+    width: 400px;
+}
+
+li {
+    list-style: none;
+    margin: 25px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.buti button {
+    width: 155px;
+    height: 36px;
+    background-color: #018ABE;
+    border: 3px;
+    margin: 0px 0px 0px 70px;
+}
+
+body {
+    background-color:  #162831;
+}
+
+.logo img {
+    width: 90px;
+    border-radius: 40px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.pal{
+    display: flex;
+    margin: 0 auto;
+    width: 1296px;
+    height: 1px;
+    opacity: 0.5;
+    background-color: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.lal{
+    width: 550px;
+    height: 450px;
+    color: white;
+}
+
+.im{
+    width:564px;
+    height:430px;
+    margin-right: 100px;
+}
+
+.lol{
+    display: flex;
+    justify-content: center;
+    width:1298px;
+    height:530px;
+    border-radius:20px ;
+    border: 2px solid #018ABE;
+    padding: 50px;
+    margin-bottom: 45px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+.bat{
+    display: flex;
+    justify-content: center;
+    width: 108px;
+    height: 33px;
+    background: #018ABE;
+    border-radius: 5px;
+    padding: 6px;
+
+}   
+
+.pala{
+    margin: 0 auto;
+    width: 1296px;
+    height: 1px;
+    background-color: white;
+}
+
+.te{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.te p{
+    margin: 30px 200px 20px 200px ;
+}
+
+.lel{
+    flex-direction: column;
+}
+
+.lele{
+    display: flex;
+    justify-content: center;
+}

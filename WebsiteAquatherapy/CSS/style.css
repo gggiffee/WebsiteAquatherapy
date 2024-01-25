@@ -1,0 +1,448 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #162831;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    width: 100%;
+    font-size: 14px;
+}
+
+nav {
+    width: 400px;
+}
+
+li {
+    list-style: none;
+    margin: 25px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.button_enroll button {
+    width: 155px;
+    height: 36px;
+    background-color: #018ABE;
+    border: 3px;
+    margin: 0px 0px 0px 70px;
+}
+
+body {
+    background-color:  #162831;
+}
+
+.img_one {
+    display: flex;
+    margin: 0 auto;
+    background-image: url(/frontend/WebsiteAquatherapy/IMG/Aquaterrapia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1296px;
+    height: 600px;
+}
+
+img {
+    width: 90px;
+    border-radius: 40px;
+}
+
+p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.sean{
+    display: flex;
+    justify-content: center;
+    margin: 19px;
+}
+
+@media screen and (max-width:900px) {
+    .sean {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.ha{
+
+    background-image: url(/frontend/WebsiteAquatherapy/IMG/unsplash_TnOyyEtrKd0.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 416px;
+    height: 540px;
+    display: grid;
+    align-items: end;
+    font-size: 19px;
+    color: white;
+    padding: 19px;
+    margin: 19px;
+    border-radius: 10px;
+    border-bottom:7px  solid #018abe ;
+}
+.la{
+    flex-direction: column;
+}
+.le{
+    flex-direction: column;
+}
+
+.ki{
+    background-image: url(/frontend/WebsiteAquatherapy/IMG/unsplash_TnOyyEtrKd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 416px;
+    height: 258px;
+    display: grid;
+    align-items: end;
+    font-size: 19px;
+    color: white;
+    margin: 19px;
+    padding: 19px;  
+}
+.ka{
+    background-image: url(/frontend/WebsiteAquatherapy/IMG/unsplash_TnOyyEtrKd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 416px;
+    height: 258px;
+    display: grid;
+    align-items: end;
+    font-size: 19px;
+    color: white;
+    margin: 19px;
+    padding: 19px;
+}
+
+.bi{
+    background-image: url(/frontend/WebsiteAquatherapy/IMG/unsplash_TnOyyEtrKd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 416px;
+    height: 258px;
+    display: grid;
+    align-items: end;
+    font-size: 19px;
+    color: white;
+    margin: 19px;
+    padding: 19px;
+}
+
+.ku{
+    background-image: url(/frontend/WebsiteAquatherapy/IMG/unsplash_TnOyyEtrKd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 416px;
+    height: 258px;
+    display: grid;
+    align-items: end;
+    font-size: 19px;
+    color: white;
+    margin: 19px;
+    padding: 19px;
+}
+
+.headlines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-size: 42px;
+    color: white;
+}
+
+.sheet_left{
+    width: 28px;
+    height: 14px;
+    background: #018ABE;
+    border-radius: 0px 50px;
+    margin: 40px;
+}
+
+.sheet_right{
+    width: 28px;
+    height: 14px;
+    background: #018ABE;
+    border-radius: 50px 0px;
+    margin: 40px;
+}
+.v{
+    display: flex;
+    justify-content: center;
+
+}
+
+.he{
+    width: 500px;
+    height: 276px;
+    background-color:#018ABE;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+.he h3{
+    color: #ffffff;
+}
+.he p{
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.hu{
+    width: 636px;
+    height: 350px;
+    background: #25b3eb;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.hu h1{
+    color: white;
+}
+.hu p{
+    font-size: 15px;
+    color: #ffffff;
+}
+.hv{
+    width: 500px;
+    height: 276px;
+    background: #018ABE;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.hv h3  {
+    color: #ffffff;
+}
+
+.hv p{
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.s{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.b{
+    width: 16px;
+    height: 16px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    margin: 6px;
+}
+
+.w{
+    width: 16px;
+    height: 16px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    opacity: 0.4;
+    margin: 6px;
+}
+
+.q{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    font-size: 42px;
+    color: white;
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+.pp{
+    width: 466px;
+    height: 234px;
+    color: white;
+    margin: 50px 85px 0px 0px;
+}
+.pp p{
+    color: rgb(221, 221, 221);
+    margin: 10px 0px;
+}
+.p img{
+    width: 526px;
+    height: 365px;
+}
+
+.c{
+    display: flex;
+    justify-content:center;
+    margin: 80px;
+}
+
+.c img{
+    width: 526px;
+    height: 400px;
+}
+
+.cc{
+    width: 466px;
+    height: 366px;
+    color: white;
+    margin: 40px 0px 0px 85px;
+}
+
+.cc p{
+    color: rgb(221, 221, 221);
+    margin: 10px 0px;
+    font-size: 16px;
+}
+
+.bb{
+    width: 18px;
+    height: 9px;
+    background: #018ABE;
+    border-radius: 0px 50px;
+    margin: 10px;
+}
+
+.cntn {
+    display: flex;
+    gap: 20px;
+}
+
+.bu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    margin: 0px 0px 30px 0px;
+}
+
+.bu p{
+    margin-left: 25px;
+}
+
+.buu{
+    flex-direction: column;
+    margin: 60px 60px 0px 0px;
+}
+
+.u{
+    display: flex;
+    justify-content: center;
+}
+
+.u img{
+    width: 526px;
+    height: 396px;
+}
+
+.hhh{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    margin: -50px 0px 70px 530px
+}
+
+.d {
+    background-color: #018ABE;
+    border-radius: 10px;
+    padding: 35px 45px;
+    color: white;
+    height: 100%;
+}
+
+.d h2{
+    margin-bottom: 20px;
+}
+
+.arlen {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.arlen2 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.d button{
+    width: 155px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    height: 36px;
+    font-weight: 600;
+}
+
+.arlen2 img{
+    width:13px;
+    height:17px;
+}
+
+.sa{
+    display: flex;
+    justify-content: center;
+}
+
+.f{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.ff{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-top: 150px;
+}
+
+.ew{
+    width: 856px;
+    height: 604px;
+    margin-right: 24px;
+}
+
+.but{
+    color: #018ABE;
+    width: 155px;
+    height: 36px;
+    border-radius: 3px;
+    border: 0px solid white;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    width: 1230px;
+    margin: 0 auto;
+}
